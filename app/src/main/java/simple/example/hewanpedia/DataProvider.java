@@ -50,18 +50,13 @@ public class DataProvider {
 
     private static List<Buah> initDataBuah(Context ctx) {
         List<Buah> buahs = new ArrayList<>();
-        buahs.add(new Buah("Rambutan", "Asia Tenggara",
-                "Buah ini adalah buah yang terbungkus oleh kulit yang memiliki rambut di bagian luarnya", R.drawable.rambutan));
-        buahs.add(new Buah("Kelengkeng", "Thailand",
-                "Buah ini adalah buah yang berbentuk bulat, kulitnya cberwarna kuning kecoklatan dan hampir gundul", R.drawable.kelengkeng));
-        buahs.add(new Buah("Sirsak", "Karibia, Amerika Tengah",
-                "Buah ini memiliki warna kulit hijau tua dengan permukaan berbintik agak tajam, dan berbentuk lonjong", R.drawable.sirsak));
-        buahs.add(new Buah("Buah Naga", "Amerika Tengah",
-                "Buah ini hanya tumbuh di daerah tropis, seperti namanya, buah ini memiliki kulit yang menyerupai sisik naga", R.drawable.buah_naga));
-        buahs.add(new Buah("Sawo Mentega", "Meksiko",
-                "Buah ini kerap diolah menjadi selai, tepung dan bubur bahkan juga digunakan sebagai pengganti labu ketika membuat pie", R.drawable.sawo_mentega));
-        buahs.add(new Buah("Berry", "Amerika Utara",
-                "Buah ini berwarna gelap dan berbentuk bulir menyerupai raspberry", R.drawable.berry));
+        buahs.add(new Buah("Vivo", "China",
+                "Smartphone ini sangat banyak diminati oleh anak muda dengan harga yang sangat terjangkau", R.drawable.vivo));
+        buahs.add(new Buah("iphone", "USA",
+                "Adalah sebuah produk yang berasal dari Amerika dan banyak digunakan oleh pesohor dunia dan juga para artis", R.drawable.iphone));
+        buahs.add(new Buah("oppo", "China",
+                "sebuah merk smartphone yang banyak juga diminati oleh kaum hawa dan juga anak-anak", R.drawable.oppo));
+
         return buahs;
     }
 
